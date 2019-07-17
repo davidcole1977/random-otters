@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div style={{backgroundColor: '#000000'}}>
-      <img src={`/otters/${otterImageUrl}`} alt="awesome random otter innit" style={{maxWidth: '100vw', maxHeight: '100vh', display: 'block', margin: 'auto'}} />
+      <img src={`/random-otters/otters/${otterImageUrl}`} alt="awesome random otter innit" style={{maxWidth: '100vw', maxHeight: '100vh', display: 'block', margin: 'auto'}} />
     </div>
   );
 }
