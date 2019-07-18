@@ -12,6 +12,7 @@ const containerStyles = {
   backgroundColor: '#000000',
   width: '100vw',
   height: '100vh',
+  overflow: 'hidden',
 }
 
 class App extends React.Component {
