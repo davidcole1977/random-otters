@@ -15,7 +15,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "build-otters": "node ./build-otters",
-    "copy-otters": "rm -rf ./public/otters && mkdir ./public/otters && cp ./src/otters/* ./public/otters"
+    "copy-otters": "rm -rf ./public/otters && mkdir ./public/otters && cp ./src/otters/* ./public/otters",
+    "otters": "npm run build && npm run deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
