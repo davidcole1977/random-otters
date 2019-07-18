@@ -46,7 +46,7 @@ class App extends React.Component {
   render() {
     return (
       <div style={containerStyles}>
-        <img src={`${process.env.PUBLIC_URL}otters/${this.state.otterImageUrl}`} alt="awesome random otter innit" style={imageStyles} />
+        <img src={`${process.env.PUBLIC_URL}/otters/${this.state.otterImageUrl}`} alt="awesome random otter innit" style={imageStyles} />
       </div>
     );
   }
